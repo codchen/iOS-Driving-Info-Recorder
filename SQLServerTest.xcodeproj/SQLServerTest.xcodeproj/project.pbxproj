@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF2F13AD1B4E0BD800363B0E /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F13AC1B4E0BD800363B0E /* SignUpController.swift */; };
+		FF2F13AF1B4E0EB900363B0E /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F13AE1B4E0EB900363B0E /* Util.swift */; };
+		FF2F13B11B4E319100363B0E /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2F13B01B4E319100363B0E /* launch.png */; };
+		FF2F13B31B4E342100363B0E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2F13B21B4E342100363B0E /* icon.png */; };
+		FFA9C0E61B0423CD00C7E175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA9C0E51B0423CD00C7E175 /* AppDelegate.swift */; };
+		FFA9C0E81B0423CD00C7E175 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA9C0E71B0423CD00C7E175 /* ViewController.swift */; };
+		FFA9C0EB1B0423CD00C7E175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA9C0E91B0423CD00C7E175 /* Main.storyboard */; };
+		FFA9C0ED1B0423CD00C7E175 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA9C0EC1B0423CD00C7E175 /* Images.xcassets */; };
+		FFA9C0F01B0423CD00C7E175 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA9C0EE1B0423CD00C7E175 /* LaunchScreen.xib */; };
+		FFA9C0FC1B0423CD00C7E175 /* SQLServerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA9C0FB1B0423CD00C7E175 /* SQLServerTestTests.swift */; };
+		FFA9C1081B0433DE00C7E175 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA9C1071B0433DE00C7E175 /* libiconv.dylib */; };
+		FFA9C10B1B04393F00C7E175 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA9C10A1B04393F00C7E175 /* Foundation.framework */; };
+		FFA9C11D1B043D2E00C7E175 /* libfreetds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA9C1131B043D2E00C7E175 /* libfreetds.a */; };
+		FFA9C11E1B043D2E00C7E175 /* SQLClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9C1161B043D2E00C7E175 /* SQLClient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFA9C0F61B0423CD00C7E175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA9C0D81B0423CD00C7E175 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA9C0DF1B0423CD00C7E175;
+			remoteInfo = SQLServerTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF2F13AC1B4E0BD800363B0E /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		FF2F13AE1B4E0EB900363B0E /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		FF2F13B01B4E319100363B0E /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		FF2F13B21B4E342100363B0E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FFA9C0E01B0423CD00C7E175 /* SQLServerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLServerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA9C0E41B0423CD00C7E175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA9C0E51B0423CD00C7E175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFA9C0E71B0423CD00C7E175 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFA9C0EA1B0423CD00C7E175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFA9C0EC1B0423CD00C7E175 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFA9C0EF1B0423CD00C7E175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FFA9C0F51B0423CD00C7E175 /* SQLServerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLServerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA9C0FA1B0423CD00C7E175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA9C0FB1B0423CD00C7E175 /* SQLServerTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLServerTestTests.swift; sourceTree = "<group>"; };
+		FFA9C1071B0433DE00C7E175 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		FFA9C1091B04351100C7E175 /* iDriver-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iDriver-Bridging-Header.h"; sourceTree = "<group>"; };
+		FFA9C10A1B04393F00C7E175 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFA9C10F1B043D2E00C7E175 /* bkpublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bkpublic.h; path = SQLClient/bkpublic.h; sourceTree = "<group>"; };
+		FFA9C1101B043D2E00C7E175 /* cspublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cspublic.h; path = SQLClient/cspublic.h; sourceTree = "<group>"; };
+		FFA9C1111B043D2E00C7E175 /* cstypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cstypes.h; path = SQLClient/cstypes.h; sourceTree = "<group>"; };
+		FFA9C1121B043D2E00C7E175 /* ctpublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ctpublic.h; path = SQLClient/ctpublic.h; sourceTree = "<group>"; };
+		FFA9C1131B043D2E00C7E175 /* libfreetds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetds.a; path = SQLClient/libfreetds.a; sourceTree = "<group>"; };
+		FFA9C1141B043D2E00C7E175 /* odbcss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = odbcss.h; path = SQLClient/odbcss.h; sourceTree = "<group>"; };
+		FFA9C1151B043D2E00C7E175 /* SQLClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLClient.h; path = SQLClient/SQLClient.h; sourceTree = "<group>"; };
+		FFA9C1161B043D2E00C7E175 /* SQLClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQLClient.m; path = SQLClient/SQLClient.m; sourceTree = "<group>"; };
+		FFA9C1171B043D2E00C7E175 /* sqldb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqldb.h; path = SQLClient/sqldb.h; sourceTree = "<group>"; };
+		FFA9C1181B043D2E00C7E175 /* sqlfront.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqlfront.h; path = SQLClient/sqlfront.h; sourceTree = "<group>"; };
+		FFA9C1191B043D2E00C7E175 /* sybdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sybdb.h; path = SQLClient/sybdb.h; sourceTree = "<group>"; };
+		FFA9C11A1B043D2E00C7E175 /* syberror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = syberror.h; path = SQLClient/syberror.h; sourceTree = "<group>"; };
+		FFA9C11B1B043D2E00C7E175 /* sybfront.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sybfront.h; path = SQLClient/sybfront.h; sourceTree = "<group>"; };
+		FFA9C11C1B043D2E00C7E175 /* tds_sysdep_public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tds_sysdep_public.h; path = SQLClient/tds_sysdep_public.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFA9C0DD1B0423CD00C7E175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA9C10B1B04393F00C7E175 /* Foundation.framework in Frameworks */,
+				FFA9C1081B0433DE00C7E175 /* libiconv.dylib in Frameworks */,
+				FFA9C11D1B043D2E00C7E175 /* libfreetds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA9C0F21B0423CD00C7E175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFA9C0D71B0423CD00C7E175 = {
+			isa = PBXGroup;
+			children = (
+				FFA9C10A1B04393F00C7E175 /* Foundation.framework */,
+				FFA9C1071B0433DE00C7E175 /* libiconv.dylib */,
+				FFA9C0E21B0423CD00C7E175 /* SQLServerTest */,
+				FFA9C0F81B0423CD00C7E175 /* SQLServerTestTests */,
+				FFA9C0E11B0423CD00C7E175 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFA9C0E11B0423CD00C7E175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9C0E01B0423CD00C7E175 /* SQLServerTest.app */,
+				FFA9C0F51B0423CD00C7E175 /* SQLServerTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA9C0E21B0423CD00C7E175 /* SQLServerTest */ = {
+			isa = PBXGroup;
+			children = (
+				FF2F13B21B4E342100363B0E /* icon.png */,
+				FF2F13B01B4E319100363B0E /* launch.png */,
+				FFA9C10F1B043D2E00C7E175 /* bkpublic.h */,
+				FFA9C1101B043D2E00C7E175 /* cspublic.h */,
+				FFA9C1111B043D2E00C7E175 /* cstypes.h */,
+				FFA9C1121B043D2E00C7E175 /* ctpublic.h */,
+				FFA9C1131B043D2E00C7E175 /* libfreetds.a */,
+				FFA9C1141B043D2E00C7E175 /* odbcss.h */,
+				FFA9C1151B043D2E00C7E175 /* SQLClient.h */,
+				FFA9C1161B043D2E00C7E175 /* SQLClient.m */,
+				FFA9C1171B043D2E00C7E175 /* sqldb.h */,
+				FFA9C1181B043D2E00C7E175 /* sqlfront.h */,
+				FFA9C1191B043D2E00C7E175 /* sybdb.h */,
+				FFA9C11A1B043D2E00C7E175 /* syberror.h */,
+				FFA9C11B1B043D2E00C7E175 /* sybfront.h */,
+				FFA9C11C1B043D2E00C7E175 /* tds_sysdep_public.h */,
+				FFA9C0E51B0423CD00C7E175 /* AppDelegate.swift */,
+				FFA9C0E71B0423CD00C7E175 /* ViewController.swift */,
+				FFA9C0E91B0423CD00C7E175 /* Main.storyboard */,
+				FFA9C0EC1B0423CD00C7E175 /* Images.xcassets */,
+				FFA9C0EE1B0423CD00C7E175 /* LaunchScreen.xib */,
+				FFA9C0E31B0423CD00C7E175 /* Supporting Files */,
+				FFA9C1091B04351100C7E175 /* iDriver-Bridging-Header.h */,
+				FF2F13AC1B4E0BD800363B0E /* SignUpController.swift */,
+				FF2F13AE1B4E0EB900363B0E /* Util.swift */,
+			);
+			path = SQLServerTest;
+			sourceTree = "<group>";
+		};
+		FFA9C0E31B0423CD00C7E175 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9C0E41B0423CD00C7E175 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFA9C0F81B0423CD00C7E175 /* SQLServerTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9C0FB1B0423CD00C7E175 /* SQLServerTestTests.swift */,
+				FFA9C0F91B0423CD00C7E175 /* Supporting Files */,
+			);
+			path = SQLServerTestTests;
+			sourceTree = "<group>";
+		};
+		FFA9C0F91B0423CD00C7E175 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9C0FA1B0423CD00C7E175 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFA9C0DF1B0423CD00C7E175 /* SQLServerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA9C0FF1B0423CD00C7E175 /* Build configuration list for PBXNativeTarget "SQLServerTest" */;
+			buildPhases = (
+				FFA9C0DC1B0423CD00C7E175 /* Sources */,
+				FFA9C0DD1B0423CD00C7E175 /* Frameworks */,
+				FFA9C0DE1B0423CD00C7E175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLServerTest;
+			productName = SQLServerTest;
+			productReference = FFA9C0E01B0423CD00C7E175 /* SQLServerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFA9C0F41B0423CD00C7E175 /* SQLServerTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA9C1021B0423CD00C7E175 /* Build configuration list for PBXNativeTarget "SQLServerTestTests" */;
+			buildPhases = (
+				FFA9C0F11B0423CD00C7E175 /* Sources */,
+				FFA9C0F21B0423CD00C7E175 /* Frameworks */,
+				FFA9C0F31B0423CD00C7E175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA9C0F71B0423CD00C7E175 /* PBXTargetDependency */,
+			);
+			name = SQLServerTestTests;
+			productName = SQLServerTestTests;
+			productReference = FFA9C0F51B0423CD00C7E175 /* SQLServerTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA9C0D81B0423CD00C7E175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Xiaoyu Chen";
+				TargetAttributes = {
+					FFA9C0DF1B0423CD00C7E175 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					FFA9C0F41B0423CD00C7E175 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FFA9C0DF1B0423CD00C7E175;
+					};
+				};
+			};
+			buildConfigurationList = FFA9C0DB1B0423CD00C7E175 /* Build configuration list for PBXProject "SQLServerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFA9C0D71B0423CD00C7E175;
+			productRefGroup = FFA9C0E11B0423CD00C7E175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA9C0DF1B0423CD00C7E175 /* SQLServerTest */,
+				FFA9C0F41B0423CD00C7E175 /* SQLServerTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFA9C0DE1B0423CD00C7E175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2F13B11B4E319100363B0E /* launch.png in Resources */,
+				FF2F13B31B4E342100363B0E /* icon.png in Resources */,
+				FFA9C0EB1B0423CD00C7E175 /* Main.storyboard in Resources */,
+				FFA9C0F01B0423CD00C7E175 /* LaunchScreen.xib in Resources */,
+				FFA9C0ED1B0423CD00C7E175 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA9C0F31B0423CD00C7E175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA9C0DC1B0423CD00C7E175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA9C0E81B0423CD00C7E175 /* ViewController.swift in Sources */,
+				FFA9C0E61B0423CD00C7E175 /* AppDelegate.swift in Sources */,
+				FF2F13AF1B4E0EB900363B0E /* Util.swift in Sources */,
+				FFA9C11E1B043D2E00C7E175 /* SQLClient.m in Sources */,
+				FF2F13AD1B4E0BD800363B0E /* SignUpController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA9C0F11B0423CD00C7E175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA9C0FC1B0423CD00C7E175 /* SQLServerTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFA9C0F71B0423CD00C7E175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFA9C0DF1B0423CD00C7E175 /* SQLServerTest */;
+			targetProxy = FFA9C0F61B0423CD00C7E175 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFA9C0E91B0423CD00C7E175 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA9C0EA1B0423CD00C7E175 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFA9C0EE1B0423CD00C7E175 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA9C0EF1B0423CD00C7E175 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFA9C0FD1B0423CD00C7E175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFA9C0FE1B0423CD00C7E175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFA9C1001B0423CD00C7E175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SQLServerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SQLServerTest/SQLClient",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLServerTest/iDriver-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		FFA9C1011B0423CD00C7E175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SQLServerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SQLServerTest/SQLClient",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLServerTest/iDriver-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		FFA9C1031B0423CD00C7E175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SQLServerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLServerTest.app/SQLServerTest";
+			};
+			name = Debug;
+		};
+		FFA9C1041B0423CD00C7E175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SQLServerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLServerTest.app/SQLServerTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFA9C0DB1B0423CD00C7E175 /* Build configuration list for PBXProject "SQLServerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA9C0FD1B0423CD00C7E175 /* Debug */,
+				FFA9C0FE1B0423CD00C7E175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA9C0FF1B0423CD00C7E175 /* Build configuration list for PBXNativeTarget "SQLServerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA9C1001B0423CD00C7E175 /* Debug */,
+				FFA9C1011B0423CD00C7E175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA9C1021B0423CD00C7E175 /* Build configuration list for PBXNativeTarget "SQLServerTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA9C1031B0423CD00C7E175 /* Debug */,
+				FFA9C1041B0423CD00C7E175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFA9C0D81B0423CD00C7E175 /* Project object */;
+}
